@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+.form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+.form-container p {
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button Styles */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white; /* Set a default text color for all buttons */
+    text-align: center;
+}
+
+/* Specific Button Styles */
+.btn-primary {
+    background-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-update {
+    background-color: #28a745;
+}
+
+.btn-update:hover {
+    background-color: #218838;
+}
+
+/* Add a class for a light-colored button if needed */
+.btn-light {
+    background-color: #f8f9fa;
+    color: #333; /* Dark text color for visibility on light background */
+}
+
+.btn-light:hover {
+    background-color: #e2e6ea;
+}
+
+/* Post Entry Styles */
+.post-entry {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.post-title {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.post-title:hover {
+    text-decoration: underline;
+}
+
+.post-body {
+    color: #555;
+    line-height: 1.6;
+}
